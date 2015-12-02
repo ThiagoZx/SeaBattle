@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner.cs">
     <Files>
-      <File FileName="..\..\Tecno_Bubble\Tecno_Bubble\Assets\Scripts\Player_Behaviour.cs" Line="14" Column="1" />
-      <File FileName="Assets\Scripts\Spawner.cs" Line="23" Column="81" />
+      <File FileName="BattleShip.sln" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ButtonBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="33" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

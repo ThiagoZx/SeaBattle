@@ -1,11 +1,10 @@
 <?php
     $hostname = 'mysql.hostinger.com.br';
-    $username = 'u872502990_tris';
-    $password = 'y9EFfAIaf3';
-    $port = '3306';
+    $username = 'u667006922_zx';
+    $password = 'aL9atefFtlSjpgevSQ';
    
-    $con = mysqli_connect($hostname, $username, $password, 'u872502990_tris') or die ("no DB Connection");
-
+    $con = mysqli_connect($hostname, $username, $password, 'u667006922_shots') or die ("no DB Connection");
+   
     $name = $_POST['name'];
     $score = $_POST['score'];
     $godmode = intval($_POST['godmode']);

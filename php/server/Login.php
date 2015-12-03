@@ -1,18 +1,17 @@
 <?php
-    $hostname = 'mysql.hostinger.com.br';
-    $username = 'u667006922_zx';
-    $password = 'aL9atefFtlSjpgevSQ';
-   
-    $con = mysqli_connect($hostname, $username, $password, 'u667006922_shots') or die ("no DB Connection");
-   
-    $name = $_POST['name'];
-    $score = $_POST['score'];
-    $godmode = intval($_POST['godmode']);
+    $hostname = "mysql.hostinger.com.br";
+    $db_username = "u667006922_zx";
+    $db_password = "aL9atefFtlSjpgevSQ";
 
-    if($godmode == 0) {
-    	$query = "INSERT INTO u872502990_tris.highscores (ID, Name, Score) VALUES (NULL, '$name', $score);";
-    } else {
-    	$query = "DELETE FROM u872502990_tris.highscores WHERE Name = '$name';";
-    }    
+    $con = mysqli_connect($hostname, $db_username, $db_password, "u667006922_shots") or die ("no DB Connection");
+
+    $userID = $_POST["userID"];
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+    
+    
+    
+    $query = "INSERT INTO u667006922_shots.login (userID, username, password) VALUES ($userID, $username, $password);";
+
     mysqli_query($con, $query);
 ?>

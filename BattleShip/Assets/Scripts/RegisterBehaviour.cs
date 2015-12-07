@@ -44,15 +44,10 @@ public class RegisterBehaviour: MonoBehaviour {
 	public IEnumerator Register() {
 		if (CheckConnection(db_url + "Register.php")) {
 			WWWForm form = new WWWForm ();
-			print("1");
 			form.AddField ("userID", userID);
-			print("2");
 			form.AddField ("username", username);
-			print("3");
 			form.AddField ("password", password);
-			print("4");
 			WWW webRequest = new WWW (db_url + "Register.php", form);
-			print("5");
 			yield return webRequest;
 			print(webRequest.text);
 		} else {

@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\ButtonBehaviour.cs" />
      <Compile Include="Assets\Scripts\LoadingBehaviour.cs" />
      <Compile Include="Assets\Scripts\LoginBehaviour.cs" />
+     <Compile Include="Assets\Scripts\PlaceShipBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\RegisterBehaviour.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
  <Reference Include="UnityEngine.UI">

@@ -34,6 +34,7 @@ public class Spawner : MonoBehaviour {
 				Button btn;
 				btn = Instantiate(button, new Vector3(position_x + j * size, position_y - i * size, 0), Quaternion.identity) as Button;
 				btn.transform.SetParent(holder.transform, false);
+				btn.transform.localScale = new Vector3(size / 50, size / 50, size / 50);
 				btn.name = player == 2 ? btn.name = "Grid_0" + player + "_ID:" + (5 - i) + "_" + (5 - j) : btn.name = "YourGrid_" + (i - 1) + "_" + (j - 1);
 				yield return new WaitForSeconds(0.1f);
 			}

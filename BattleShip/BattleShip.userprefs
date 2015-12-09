@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LoginBehaviour.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner.cs">
     <Files>
-      <File FileName="Assets\Scripts\LoadingBehaviour.cs" Line="15" Column="50" />
-      <File FileName="Assets\Scripts\ButtonBehaviour.cs" Line="14" Column="123" />
-      <File FileName="Assets\Scripts\Spawner.cs" Line="8" Column="115" />
-      <File FileName="Assets\Scripts\RegisterBehaviour.cs" Line="69" Column="153" />
-      <File FileName="Assets\Scripts\LoginBehaviour.cs" Line="70" Column="39" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="37" Column="77" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

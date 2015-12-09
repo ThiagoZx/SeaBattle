@@ -10,4 +10,6 @@ public class ButtonBehaviour : MonoBehaviour, IPointerExitHandler
 		gameObject.SetActive (false);
 		gameObject.SetActive (true);
 	}
+
+	//This was the only way I found to deactivate the animation in absolutely no delay with another animation already on - Zx
 }

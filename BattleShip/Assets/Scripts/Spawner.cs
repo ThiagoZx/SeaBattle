@@ -5,6 +5,8 @@ using System.Collections;
 
 public class Spawner : MonoBehaviour {
 
+	//First time I used those "cute" headers. I've got no patience to keep on doing such things.... Or comments. - Zx
+
 	[Header("Prefab")]
 	public Button button;
 	public GameObject Holder_01;
